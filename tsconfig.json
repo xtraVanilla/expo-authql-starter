@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "assets": ["./assets"],
+      "client": ["./client.ts"],
+      "authentication": ["./src/authentication/index.ts"],
+      "common": ["./src/common"],
+      "navigation": ["./src/navigation/index.tsx"],
+      "queries": ["./src/api/queries/index.ts"],
+      "mutations": ["./src/api/mutations/index.ts"],
+      "subscriptions": ["./src/api/subscriptions/index.ts"]
+    }
+  }
+}
